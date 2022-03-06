@@ -51,6 +51,11 @@ State Hook that uses `useState()` function. Changes the background color with `s
 ```
 const [color, setColor] = useState();
 
+<button 
+onClick={() => setColor(colorName)} 
+key={colorName}>
+{colorName}
+</button>
 ```
 
 
