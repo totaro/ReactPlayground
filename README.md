@@ -16,7 +16,7 @@ changeColor() {
 <button onClick = {this.changeColor} >
 ```
 
-Props from App.js to Clock,js component:
+Props from App.js to Clock.js component:
 ```
 <Clock name="Tom"/>
 ...
