@@ -8,10 +8,10 @@ Toggless div background color with event trigger on button that calls
 event handler function
 
 `llllsss`
-changeColor() {
+`changeColor() {
     const newColor = this.state.color === green ? yellow : green;
     this.setState({ color: newColor });
-  }
+  }`
 
 <button onClick = {this.changeColor} >
 `
