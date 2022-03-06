@@ -74,3 +74,4 @@ const handleChange = ({ target })=> {
 <input value={phone} onChange={handleChange} id='phone-input' />
 ```
 
+<img src="screenshots/react1.png">
