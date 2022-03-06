@@ -36,7 +36,7 @@ import ValidPhoneNumber from './ValidPhoneNumber.js';
 
 ## Clock.js:
 
-
+Testing The Component Lifecycle (Mounting, Updating and Unmounting) with clock example. 
 
 
 
