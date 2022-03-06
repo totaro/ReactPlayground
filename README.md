@@ -46,6 +46,8 @@ componentDidMount()
 componentWillUnmount()
 componentDidUpdate()
 ```
+## ColorPIcker.js
+
 
 
 
