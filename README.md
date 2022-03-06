@@ -46,7 +46,7 @@ componentDidMount()
 componentWillUnmount()
 componentDidUpdate()
 ```
-## ColorPIcker.js
+## ColorPicker.js
 State Hook that uses `useState()` function. Changes the background color with `setColor()`.
 ```
 const [color, setColor] = useState();
@@ -57,6 +57,8 @@ key={colorName}>
 {colorName}
 </button>
 ```
+
+## ValidPhoneNumber.js
 
 
 
