@@ -59,6 +59,18 @@ key={colorName}>
 ```
 
 ## ValidPhoneNumber.js
-
-
+State setter updates the state input only when the value from the user’s change event passes regular expression test `const validPhoneNumber = /^\d{1,10}$/;` for valid phone number strings.
+```
+const handleChange = ({ target })=> {
+    const newPhone = target.value;
+    const isValid = validPhoneNumber.test(newPhone);
+    if (isValid) {
+        // updates state 
+        setPhone(newPhone);
+    }
+    // just ignore the event, when new value is invalid
+  };
+  ...
+<input value={phone} onChange={handleChange} id='phone-input' />
+```
 
