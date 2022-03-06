@@ -47,7 +47,11 @@ componentWillUnmount()
 componentDidUpdate()
 ```
 ## ColorPIcker.js
+State Hook that uses `useState()` function. Changes the background color with `setColor()`.
+```
+const [color, setColor] = useState();
 
+```
 
 
 
