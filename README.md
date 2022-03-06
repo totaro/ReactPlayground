@@ -1,5 +1,5 @@
 # ReactPlayground
-React.js - Testing playground
+React.js - Testing playground: States and props, component lifecycle, State Hooks
 
 ## App.js:
 
