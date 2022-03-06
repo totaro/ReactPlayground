@@ -1,7 +1,7 @@
 # ReactPlayground
 React.js - Testing playground
 
-App.js:
+##App.js:
 
 Testing states and props. Calling this.setState from Another Function. 
 Toggless div background color with event trigger on button that calls
