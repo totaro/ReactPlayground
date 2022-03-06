@@ -36,7 +36,16 @@ import ValidPhoneNumber from './ValidPhoneNumber.js';
 
 ## Clock.js:
 
-Testing The Component Lifecycle (Mounting, Updating and Unmounting) with clock example. 
+Testing The Component Lifecycle with class components (Mounting, Updating and Unmounting) with clock example.
+Component lifecycle in this example <Clock /> component consist following methods:
+
+```
+constructor()
+render()
+componentDidMount()
+componentWillUnmount()
+componentDidUpdate()
+```
 
 
 
