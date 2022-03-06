@@ -19,7 +19,7 @@ changeColor() {
 Props from App.js to Clock,js component:
 ```
 <Clock name="Tom"/>
-
+...
 <div><h1>Hi there,  <i>{this.props.name}</i> (&lt;- another prop.name)</h1>
 ```
 
@@ -28,7 +28,7 @@ App.js also renders all other imported components:
 import Clock from './Clock.js';
 import ColorPicker from './ColorPicker.js';
 import ValidPhoneNumber from './ValidPhoneNumber.js';
-
+...
 <Clock name="Tom"/>
 <ColorPicker />
 <ValidPhoneNumber />
@@ -50,7 +50,7 @@ componentDidUpdate()
 State Hook that uses `useState()` function. Changes the background color with `setColor()`.
 ```
 const [color, setColor] = useState();
-
+...
 <button 
 onClick={() => setColor(colorName)} 
 key={colorName}>
