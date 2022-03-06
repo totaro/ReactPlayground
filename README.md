@@ -23,6 +23,16 @@ Props from App.js to Clock,js component:
 <div><h1>Hi there,  <i>{this.props.name}</i> (&lt;- another prop.name)</h1>
 ```
 
+App.js also renders all other imported components:
+```
+import Clock from './Clock.js';
+import ColorPicker from './ColorPicker.js';
+import ValidPhoneNumber from './ValidPhoneNumber.js';
+
+<Clock name="Tom"/>
+<ColorPicker />
+<ValidPhoneNumber />
+```
 
 
 
